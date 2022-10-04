@@ -1,0 +1,31 @@
+body{
+    background: #252B42;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fontsizeg{
+    font-size:large;
+}
+
+.fontsizexg{
+    font-size:x-large;
+}
+
+.color-white{
+    color: #ffffff;
+};
+
+.color-primary{
+    color: #252B42;
+};
+
+.color-secundary{
+    color: #737373;
+};
+
+
+.boxsize-01 {
+    max-width: 230px;
+    max-height: 341px;
+    background: #fff;
+};
