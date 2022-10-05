@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BackgroundBlue = styled.div`
-    background-color: #295C7A;
+    background-color: #0072B5;
 `;
 
 export const Buttoncolor = styled.button`
@@ -9,12 +9,21 @@ export const Buttoncolor = styled.button`
     border-radius: 0px 7px 7px 0px;
     color: #fff;
     border: none;
+    padding: 10px 20px
+
     `;
 
 export const InputEmail = styled.input`
     border-radius: 7px 0px 0px 7px;
     border: none;
+    padding: 8px 20px;
+    width: 100%;
 
+    :focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
 `;
 
 export const H4Title = styled.h4`

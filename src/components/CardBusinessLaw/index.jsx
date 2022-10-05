@@ -1,14 +1,15 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {GiScales} from 'react-icons/gi';
-import { FontPrimary,CardWhite } from '../CardBusinessLaw/style';
+import { CardWhite, FontPrimary } from '../CardBusinessLaw/style';
 
 
-const BusinessLaw = (props) => {
-    <>
-        <CardWhite>
-            <GiScales />
-            <FontPrimary>{props.title}</FontPrimary>
-        </CardWhite>
-    </>
-}
+const CardBusinessLaw = ({title, imagename}) => (
+    <CardWhite className="text-center w-100" color="#295C7A">
+        <i class={imagename} />
+        <FontAwesomeIcon icon={imagename} />
+        <GiScales color="#295C7A" size={50} />
+        <FontPrimary>{ title }</FontPrimary>
+    </CardWhite>
+);
 
-export default BusinessLaw;
+export default CardBusinessLaw;

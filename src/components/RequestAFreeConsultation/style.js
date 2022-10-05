@@ -6,6 +6,7 @@ export const ButtonRequest = styled.button`
     border-radius: 7px;
     color: #fff;
     border: none;
+    padding: 10px 25px;
     `;
 
 

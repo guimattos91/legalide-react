@@ -8,29 +8,58 @@ import { BackgroundBlue, H4Title, Buttoncolor, InputEmail } from '../Emailsubscr
 
 
 const Emailsubscribe = () =>(
-    <div className="container">
-        <div className="d-flex justify-content-between align-items-center pb-5">
-            <img src={hooli} alt="HooliLogo" />
-            <img src={lyft} alt="LyftLogo" />
-            <img src={hat} alt="HatLogo" />
-            <img src={stripe} alt="StripeLogo" />
-            <img src={aws} alt="AwsLogo" />
-            <img src={freepik} alt="FreepikLogo" />
-        </div>
-        <BackgroundBlue className="p-4">
-        <div className="d-flex justify-content-around align-items-center">
-            <div className="px-2">
-                <H4Title className="pl-5">Subscribe For Latest<br />Newsletter</H4Title>
+    <>
+        <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6 py-5
+        d-flex justify-content-between g-3">
+            <div className="col d-flex align-items-center justify-content-center
+            pt-4 pt-md-0">
+                <img src={hooli} alt="HooliLogo"
+                    className="text-center" />
             </div>
-            <div className="px-2">
-                <div className="d-flex">
+            <div className="col d-flex align-items-center justify-content-center
+            pt-4 pt-md-0">
+                <img src={lyft} alt="LyftLogo"
+                className="text-center"/>
+            </div>
+            <div className="col d-flex align-items-center justify-content-center
+            pt-4 pt-md-0">
+                <img src={hat} alt="HatLogo"
+                className="text-center"/>
+            </div>
+            <div className="col d-flex align-items-center justify-content-center
+            pt-4 pt-md-0">
+                <img src={stripe} alt="StripeLogo"
+                className="text-center"/>
+            </div>
+            <div className="col d-flex align-items-center justify-content-center
+            pt-4 pt-md-0">
+                <img src={aws} alt="AwsLogo"
+                className="text-center"/>
+            </div>
+            <div className="col d-flex align-items-center justify-content-center
+            pt-4 pt-md-0">
+                <img src={freepik} alt="FreepikLogo"
+                className="text-center"/>
+            </div>
+        </div>
+        <BackgroundBlue className="row row-cols-1 row-cols-md-2 p-4">
+            <div className="col col-md-4">
+                <div className="d-flex justify-content-around align-items-center">
+                    <div className="px-2">
+                        <H4Title className="text-center text-md-start">
+                            Subscribe For Latest Newsletter
+                        </H4Title>
+                    </div>
+                </div>
+            </div>
+            <div className= "col col-md-8 align-items-center">
+                <div className="d-flex align-items-center w-100">
                     <InputEmail type="email" id="exampleFormControlInput1" placeholder="Your Email"></InputEmail>
                     <Buttoncolor type="submit" className="p-2">Subscribe</Buttoncolor>
                 </div>
             </div>
-        </div>
         </BackgroundBlue>
-    </div>
+    </>
 );
 
 export default Emailsubscribe;

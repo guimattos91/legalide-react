@@ -16,6 +16,7 @@ export const ListStyleNone = styled.ul`
 export const TitleH1Martel = styled.h1`
     font-family: 'Martel', serif;
     font-weight: bolder;
+    color: white;
 `;
 
 export const BannerTitle = styled.h2`
@@ -26,5 +27,35 @@ export const BannerTitle = styled.h2`
 
 export const HeaderStyles = styled.header`
     color: #fff;
+`;
 
+export const YellowButtonBanner = styled.button`
+    border-radius: 100px;
+    padding: 5px 30px 5px 30px ;
+    background-color: #D0A144;
+    margin-right: 2%;
+    flex: flex;
+    align-items: center;
+    border: none;
+    color: white;
+    font-weight: 700;
+    p{
+      padding: 0;
+      margin:0;
+    }
+`;
+export const TransparentButtonBanner = styled.button`
+    border-radius: 100px;
+    padding: 5px 30px 5px 30px ;
+    background-color: transparent;
+    margin-right: 2%;
+    flex: flex;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    p{
+      padding: 0;
+      margin:0;
+    }
 `;

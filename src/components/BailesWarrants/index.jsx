@@ -4,10 +4,10 @@ import { FontPrimary, BgWhite, FontSecundary } from '../CardFraudsMislead/style.
 
 
 const BailesWarrants = (props) => (
-    <BgWhite>
-        <FontPrimary className="p-3">Bailes &amp; Warrants</FontPrimary>
+    <BgWhite className="pt-2">
+        <FontPrimary className="p-3">Bailes Warrants</FontPrimary>
         <FontSecundary className="p-3"> “Quantum mechanics” is the description of the behaviour of matter</FontSecundary>
-        <img src={BailWarrants} className="card-img-top  justify-content-end" alt="BailWarrants" />
+        <img src={BailWarrants} className="card-img-bottom w-100" alt="BailWarrants" />
     </BgWhite>
 );
 

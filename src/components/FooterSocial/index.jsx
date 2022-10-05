@@ -3,14 +3,14 @@ import {FaFacebookSquare} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
-import { UlFooterSocial } from '../FooterSocial/style.js';
+import { TextStyled, UlFooterSocial } from '../FooterSocial/style.js';
 
 
 
 const FooterSocial = () => (
     <div className="d-flex justify-content-between container">
         <div className="color-white">
-            <p>Made With <GiBrain /> By Guilherme <i>All Rights Reserved</i></p>
+            <TextStyled>Made With <GiBrain /> By Guilherme <i>All Rights Reserved</i></TextStyled>
         </div>
         <nav>
             <UlFooterSocial className="d-flex align-items-center color-white">
