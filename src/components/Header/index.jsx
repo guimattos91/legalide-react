@@ -2,6 +2,7 @@ import woman from '../../assets/agent.png';
 import { BannerContainer, ListStyleNone, TitleH1Martel, BannerTitle, HeaderStyles, TransparentButtonBanner, YellowButtonBanner } from '../Header/style.js';
 import '../Header/style.js';
 import { BiCart, BiMenuAltRight, BiSearch } from 'react-icons/bi';
+import { LinkStyle } from '../../styles/global';
 
 
 const Header = () => (
@@ -11,10 +12,10 @@ const Header = () => (
                 <TitleH1Martel className="fontsizexg text-center text-md-start">Legalide</TitleH1Martel>
                 <nav className="d-none d-md-flex">
                     <ListStyleNone className="d-flex align-items-center">
-                        <li className="px-3 color-white">Practice areas</li>
-                        <li className="px-3 color-white">Practice Advice</li>
-                        <li className="px-3 color-white">Who we are</li>
-                        <li className="px-3 color-white" >Contact</li>
+                        <LinkStyle href="#OurPracticeArea"><li className="px-3 color-white">Practice Areas</li></LinkStyle>
+                        <LinkStyle href="#PracticeAdvice"><li className="px-3 color-white">Practice Advice</li></LinkStyle>
+                        <LinkStyle href="#WhoWeAre"><li className="px-3 color-white">Who we are</li></LinkStyle>
+                        <LinkStyle href="#RequestAFreeConsultation"><li className="px-3 color-white" >Contact</li></LinkStyle>
                     </ListStyleNone>
                 </nav>
                 <nav className="d-flex d-md-none">

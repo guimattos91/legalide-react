@@ -4,7 +4,7 @@ import {FaGavel, FaFileContract, FaBalanceScale} from 'react-icons/fa';
 
 
 const OurPracticeArea = () =>(
-    <div className="pb-5">
+    <div id="OurPracticeArea"  className="pb-5">
         <Maintitle
         align="center"
         title="Our Practice Areas"

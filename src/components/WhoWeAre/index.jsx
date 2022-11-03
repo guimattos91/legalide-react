@@ -5,7 +5,7 @@ import { TextStyleLarge,TextStyleSmall } from './style';
 
 
 const WhoWeAre = () =>(
-    <>
+    <div id="WhoWeAre">
         <Maintitle
             align="center"
             title="Who We Are"
@@ -46,7 +46,7 @@ const WhoWeAre = () =>(
                 </div>
             </div>
         </div>
-    </>
+    </div>
 )
 
 export default WhoWeAre

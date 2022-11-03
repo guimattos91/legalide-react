@@ -4,7 +4,7 @@ import {FaPaperPlane, FaPhone} from 'react-icons/fa';
 
 
 const GetInTouch = () =>(
-    <div className="pb-5">
+    <div id="GetInTouch"  className="pb-5">
         <Maintitle
         align="center"
         title="Get In Touch"

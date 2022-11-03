@@ -3,7 +3,7 @@ import { H3Title, ButtonRequest, TextWhite } from '../RequestAFreeConsultation/s
 
 
 const RequestAFreeConsultation = () =>(
-    <>
+    <div id="RequestAFreeConsultation">
         <div className="row d-flex justify-content-between pt-5">
             <div className="col-12 col-md-9 text-center text-md-start">
                 <H3Title> Request A Free Consultation Newsletter</H3Title>
@@ -18,7 +18,7 @@ const RequestAFreeConsultation = () =>(
                 </div>
             </div>
         </div>
-    </>
+    </div>
 );
 
 export default RequestAFreeConsultation;

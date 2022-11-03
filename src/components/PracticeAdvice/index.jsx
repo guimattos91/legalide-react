@@ -7,7 +7,7 @@ import TrafficRelated from '../../assets/TrafficRelated.png';
 
 
 const PracticeAdvice = () =>(
-    <div className="pb-5">
+    <div id="PracticeAdvice" className="pb-5">
             <Maintitle
             title="Practice Advice"
             align="center"
