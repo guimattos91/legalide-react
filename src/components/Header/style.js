@@ -10,6 +10,7 @@ export const BannerContainer = styled.div`
 
 export const ListStyleNone = styled.ul`
     list-style: none;
+    flex: flex;
 `;
 
 

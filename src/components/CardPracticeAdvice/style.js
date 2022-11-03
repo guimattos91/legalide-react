@@ -15,6 +15,6 @@ export const BgWhite = styled.div`
     background-color: #fff;
     padding: 15% 0% 0% 0%;
     flex: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 `;
 
