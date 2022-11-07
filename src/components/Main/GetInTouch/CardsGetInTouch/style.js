@@ -10,7 +10,7 @@ export const FontPrimary = styled.h5`
     margin: 0px;
 `;
 
-export const FontSecundary = styled.h6`
+export const FontSecundary = styled.p`
     font-family: 'Martel', serif;
     font-weight: bold;
     color: ${props => props.textColorSecundary};
@@ -49,6 +49,5 @@ export const TextStyled = styled.p`
     text-align: center;
     font-weight: 700;
     color: ${props => props.textColor};
-    font-size: 12px;
     margin: 5px
 `;

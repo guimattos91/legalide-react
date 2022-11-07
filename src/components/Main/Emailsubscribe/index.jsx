@@ -1,9 +1,9 @@
-import hooli from '../../assets/hooliLogo.png';
-import lyft from '../../assets/lyftLogo.png';
-import hat from '../../assets/hatLogo.png';
-import stripe from '../../assets/stripeLogo.png';
-import aws from '../../assets/awsLogo.png';
-import freepik from '../../assets/freepikLogo.png';
+import hooli from '../../../assets/hooliLogo.png';
+import lyft from '../../../assets/lyftLogo.png';
+import hat from '../../../assets/hatLogo.png';
+import stripe from '../../../assets/stripeLogo.png';
+import aws from '../../../assets/awsLogo.png';
+import freepik from '../../../assets/freepikLogo.png';
 import { BackgroundBlue, H4Title, Buttoncolor, InputEmail } from '../Emailsubscribe/style.js';
 
 
@@ -42,18 +42,16 @@ const Emailsubscribe = () =>(
                 className="text-center"/>
             </div>
         </div>
-        <BackgroundBlue className="row row-cols-1 row-cols-md-2 p-4">
+        <BackgroundBlue className="row row-cols-1 row-cols-md-2 p-4 align-items-center">
             <div className="col col-md-4">
-                <div className="d-flex justify-content-around align-items-center">
                     <div className="px-2">
                         <H4Title className="text-center text-md-start">
                             Subscribe For Latest Newsletter
                         </H4Title>
                     </div>
-                </div>
             </div>
-            <div className= "col col-md-8 align-items-center">
-                <div className="d-flex align-items-center w-100">
+            <div className= "col col-md-8">
+                <div className="d-flex w-100">
                     <InputEmail type="email" id="exampleFormControlInput1" placeholder="Your Email"></InputEmail>
                     <Buttoncolor type="submit" className="p-2">Subscribe</Buttoncolor>
                 </div>

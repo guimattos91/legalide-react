@@ -8,9 +8,20 @@ export const BannerContainer = styled.div`
     background-size: cover;
 `;
 
+export const OffCanvasBody = styled.div`
+    background-color: #252B42;
+`;
+
 export const ListStyleNone = styled.ul`
     list-style: none;
     flex: flex;
+`;
+
+export const ListStyleNoneMobile = styled.ul`
+    list-style: none;
+    li{
+      font-size: 1.5em;
+    }
 `;
 
 

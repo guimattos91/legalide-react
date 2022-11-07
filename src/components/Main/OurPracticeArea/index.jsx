@@ -1,5 +1,5 @@
-import CardsOurPracticeAreas from '../CardsOurPracticeAreas';
-import Maintitle from '../Maintitle';
+import CardsOurPracticeAreas from './CardsOurPracticeAreas';
+import Maintitle from '../../Maintitle';
 import {FaGavel, FaFileContract, FaBalanceScale} from 'react-icons/fa';
 
 

@@ -1,16 +1,20 @@
-import {GiBrain} from 'react-icons/gi';
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
-import { TextStyled, UlFooterSocial } from '../FooterSocial/style.js';
+import { LinkStyled, TextStyled, UlFooterSocial } from '../FooterSocial/style.js';
 
 
 
 const FooterSocial = () => (
     <div className="d-flex justify-content-between container">
-        <div className="color-white">
-            <TextStyled>Made With <GiBrain /> By Guilherme <i>All Rights Reserved</i></TextStyled>
+        <div className="color-white d-flex flex-wrap">
+            <TextStyled>Site by
+                <LinkStyled href="https://www.linkedin.com/in/guimattos91/" target="_blank" rel="noreferrer">
+                    Guilherme
+                </LinkStyled>
+            </TextStyled>
+            <TextStyled><i>All Rights Reserved</i></TextStyled>
         </div>
         <nav>
             <UlFooterSocial className="d-flex align-items-center color-white">

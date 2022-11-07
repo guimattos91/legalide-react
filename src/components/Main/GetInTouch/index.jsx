@@ -1,5 +1,5 @@
-import CardsGetInTouch from '../CardsGetInTouch';
-import Maintitle from '../Maintitle';
+import CardsGetInTouch from './CardsGetInTouch';
+import Maintitle from '../../Maintitle';
 import {FaPaperPlane, FaPhone} from 'react-icons/fa';
 
 
@@ -12,7 +12,7 @@ const GetInTouch = () =>(
         the two major realms of Classical physics: Newtonian mechanics"
         />
         <div className="row row-cols-1 row-cols-md-3 g-0 align-items-center justify-content-center">
-          <div className="col col-lg-3">
+          <div className="col mt-3 mt-md-0">
             <CardsGetInTouch
               title="georgia.young@example.com"
               title2="georgia.young@ple.com"
@@ -22,7 +22,7 @@ const GetInTouch = () =>(
               textColor="295C7A"
             />
           </div>
-          <div className="col col-lg-3">
+          <div className="col mt-3 mt-md-0">
             <CardsGetInTouch
               title="georgia.young@example.com"
               title2="georgia.young@ple.com"
@@ -35,7 +35,7 @@ const GetInTouch = () =>(
               StartEnd="40px"
             />
           </div>
-          <div className="col col-lg-3">
+          <div className="col mt-3 mt-md-0">
             <CardsGetInTouch
               title="georgia.young@example.com"
               title2="georgia.young@ple.com"

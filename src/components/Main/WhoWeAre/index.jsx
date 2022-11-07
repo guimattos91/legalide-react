@@ -1,6 +1,6 @@
 import {BsPeople} from 'react-icons/bs'
 import {BsSpeedometer2} from 'react-icons/bs'
-import Maintitle from '../Maintitle';
+import Maintitle from '../../Maintitle';
 import { TextStyleLarge,TextStyleSmall } from './style';
 
 

@@ -1,5 +1,5 @@
 
-import { H3Title, ButtonRequest, TextWhite } from '../RequestAFreeConsultation/style.js';
+import { H3Title, ButtonRequest, TextWhite } from './style.js';
 
 
 const RequestAFreeConsultation = () =>(

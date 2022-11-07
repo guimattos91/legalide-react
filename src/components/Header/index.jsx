@@ -1,5 +1,15 @@
 import woman from '../../assets/agent.png';
-import { BannerContainer, ListStyleNone, TitleH1Martel, BannerTitle, HeaderStyles, TransparentButtonBanner, YellowButtonBanner } from '../Header/style.js';
+import {
+    BannerContainer,
+    ListStyleNone,
+    TitleH1Martel,
+    BannerTitle,
+    HeaderStyles,
+    TransparentButtonBanner,
+    YellowButtonBanner,
+    OffCanvasBody,
+    ListStyleNoneMobile
+} from '../Header/style.js';
 import '../Header/style.js';
 import { BiCart, BiMenuAltRight, BiSearch } from 'react-icons/bi';
 import { LinkStyle } from '../../styles/global';
@@ -22,8 +32,42 @@ const Header = () => (
                     <ListStyleNone className="d-flex align-items-center">
                         <li className="px-3 color-white"><BiSearch /></li>
                         <li className="px-3 color-white"><BiCart /></li>
-                        <li className="px-3 color-white"><BiMenuAltRight /> </li>
+                        <button className="btn border-0"
+                            type="button"
+                            data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling"
+                            aria-controls="offcanvasScrolling">
+                            <li className="px-3 color-white">
+                                <BiMenuAltRight />
+                            </li>
+                        </button>
                     </ListStyleNone>
+
+                    <div className="offcanvas offcanvas-start"
+                        data-bs-scroll="true"
+                        data-bs-backdrop="false"
+                        tabindex="-1"
+                        id="offcanvasScrolling"
+                        aria-labelledby="offcanvasScrollingLabel">
+                        <OffCanvasBody className="offcanvas-header">
+                            <BannerTitle className="offcanvas-title" id="offcanvasScrollingLabel">Menu</BannerTitle>
+                            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            </button>
+                        </OffCanvasBody>
+                        <OffCanvasBody className="offcanvas-body">
+                        <nav >
+                            <ListStyleNoneMobile className="d-flex flex-column align-items-center">
+                                    <li className="py-3 color-white" data-bs-dismiss="offcanvas">
+                                        <LinkStyle href="#OurPracticeArea">
+                                            Practice Areas
+                                        </LinkStyle>
+                                    </li>
+                                <LinkStyle href="#PracticeAdvice" ><li className="py-3 color-white" data-bs-dismiss="offcanvas">Practice Advice</li></LinkStyle>
+                                <LinkStyle href="#WhoWeAre"><li className="py-3 color-white">Who we are</li></LinkStyle>
+                                <LinkStyle href="#RequestAFreeConsultation"><li className="py-3 color-white" >Contact</li></LinkStyle>
+                            </ListStyleNoneMobile>
+                        </nav>                        </OffCanvasBody>
+                        </div>
                 </nav>
             </div>
             <div className="container d-flex justify-content-between">
@@ -38,9 +82,9 @@ const Header = () => (
                                         We know how large objects will act, but things on a small scale.
                                     </p>
                                 </div>
-                                <div className="d-flex justify-content-center flex-wrap">
-                                    <YellowButtonBanner className="mt-4 mt-md-0">Get Quote Now</YellowButtonBanner>
-                                    <TransparentButtonBanner className="mt-4 mt-md-0">Learn More</TransparentButtonBanner>
+                                <div className="d-flex justify-content-center justify-content-md-start flex-wrap">
+                                    <YellowButtonBanner className="mt-4 mt-lg-0">Get Quote Now</YellowButtonBanner>
+                                    <TransparentButtonBanner className="mt-4 mt-lg-0">Learn More</TransparentButtonBanner>
                                 </div>
                             </div>
                         </div>

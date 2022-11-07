@@ -21,7 +21,8 @@ const CardsGetInTouch = ({
             textColor={textColor}
             topBottom={topBottom}
             StartEnd={StartEnd}
-            >
+            className="card"
+            ><div className="card-body">
                 <Icon color={textColor}  className="fa-3x fa-light mt-4" />
                 <FontSecundary
                     backgroundColor={backgroundColor}
@@ -50,7 +51,7 @@ const CardsGetInTouch = ({
                 <TextStyled textColor={borderColor}>
                     Submit Request
                 </TextStyled>
-                </ButtonStyled>
+                </ButtonStyled></div>
         </CardGetInTouch>
     )};
 

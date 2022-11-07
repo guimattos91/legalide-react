@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BackgroundColorSecundary = styled.footer`
+export const BackgroundColorSecundary = styled.div`
     background: #295C7A;
 `;
 
