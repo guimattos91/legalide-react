@@ -11,37 +11,31 @@ import {
     ListStyleNoneMobile
 } from '../Header/style.js';
 import '../Header/style.js';
-import { BiCart, BiMenuAltRight, BiSearch } from 'react-icons/bi';
+import {  BiMenuAltRight } from 'react-icons/bi';
 import { LinkStyle } from '../../styles/global';
 
 
 const Header = () => (
     <BannerContainer>
         <HeaderStyles>
-            <div className="d-flex justify-content-between container pt-3">
+            <div className="container d-flex justify-content-between pt-3 align-items-center">
                 <TitleH1Martel className="fontsizexg text-center text-md-start">Legalide</TitleH1Martel>
                 <nav className="d-none d-md-flex">
                     <ListStyleNone className="d-flex align-items-center">
-                        <LinkStyle href="#OurPracticeArea"><li className="px-3 color-white">Practice Areas</li></LinkStyle>
-                        <LinkStyle href="#PracticeAdvice"><li className="px-3 color-white">Practice Advice</li></LinkStyle>
-                        <LinkStyle href="#WhoWeAre"><li className="px-3 color-white">Who we are</li></LinkStyle>
-                        <LinkStyle href="#RequestAFreeConsultation"><li className="px-3 color-white" >Contact</li></LinkStyle>
+                        <li className="px-3 color-white"><LinkStyle href="#OurPracticeArea">Practice Areas</LinkStyle></li>
+                        <li className="px-3 color-white"><LinkStyle href="#PracticeAdvice">Practice Advice</LinkStyle></li>
+                       <li className="px-3 color-white"> <LinkStyle href="#WhoWeAre">Who we are</LinkStyle></li>
+                        <li className="px-3 color-white" ><LinkStyle href="#RequestAFreeConsultation">Contact</LinkStyle></li>
                     </ListStyleNone>
                 </nav>
                 <nav className="d-flex d-md-none">
-                    <ListStyleNone className="d-flex align-items-center">
-                        <li className="px-3 color-white"><BiSearch /></li>
-                        <li className="px-3 color-white"><BiCart /></li>
                         <button className="btn border-0"
                             type="button"
                             data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasScrolling"
                             aria-controls="offcanvasScrolling">
-                            <li className="px-3 color-white">
-                                <BiMenuAltRight />
-                            </li>
+                                <BiMenuAltRight color="white" size={30} />
                         </button>
-                    </ListStyleNone>
 
                     <div className="offcanvas offcanvas-start"
                         data-bs-scroll="true"
@@ -62,19 +56,31 @@ const Header = () => (
                                             Practice Areas
                                         </LinkStyle>
                                     </li>
-                                <LinkStyle href="#PracticeAdvice" ><li className="py-3 color-white" data-bs-dismiss="offcanvas">Practice Advice</li></LinkStyle>
-                                <LinkStyle href="#WhoWeAre"><li className="py-3 color-white">Who we are</li></LinkStyle>
-                                <LinkStyle href="#RequestAFreeConsultation"><li className="py-3 color-white" >Contact</li></LinkStyle>
+                                    <li className="py-3 color-white" data-bs-dismiss="offcanvas">
+                                        <LinkStyle href="#PracticeAdvice">
+                                            Practice Advice
+                                        </LinkStyle>
+                                    </li>
+                                    <li className="py-3 color-white">
+                                        <LinkStyle href="#WhoWeAre">
+                                            Who we are
+                                        </LinkStyle>
+                                    </li>
+                                    <li className="py-3 color-white">
+                                        <LinkStyle href="#RequestAFreeConsultation">
+                                            Contact
+                                        </LinkStyle>
+                                    </li>
                             </ListStyleNoneMobile>
                         </nav>                        </OffCanvasBody>
                         </div>
                 </nav>
             </div>
-            <div className="container d-flex justify-content-between">
-                    <div className="row row-cols-1 row-cols-md-2">
+            <div className="container">
+                    <div className="row row-cols-1 row-cols-md-2 d-flex justify-content-center">
                         <div className="col align-self-center">
                             <div className="d-flex flex-column">
-                                <BannerTitle className="text-center text-md-start pt-4 pt-md-0">
+                                <BannerTitle className="text-center text-md-start">
                                     LEGAL PRO SERVICES
                                 </BannerTitle>
                                 <div className="d-flex align-items-center">
@@ -88,10 +94,8 @@ const Header = () => (
                                 </div>
                             </div>
                         </div>
-                        <div className= "col">
-                            <div className="d-flex align-self-end">
+                        <div className="col">
                                 <img src={woman} alt="woman" className="img-fluid pt-4 pt-md-0" />
-                            </div>
                         </div>
                     </div>
             </div>

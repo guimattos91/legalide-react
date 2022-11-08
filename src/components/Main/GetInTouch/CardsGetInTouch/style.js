@@ -11,7 +11,6 @@ export const FontPrimary = styled.h5`
 `;
 
 export const FontSecundary = styled.p`
-    font-family: 'Martel', serif;
     font-weight: bold;
     color: ${props => props.textColorSecundary};
     text-align: center;
@@ -32,6 +31,7 @@ export const CardGetInTouch = styled.div`
     width: 100%;
     padding: 50px 40px;
     padding: ${props => props.topBottom} ${props => props.StartEnd};
+
 `;
 
 export const ButtonStyled = styled.button`
@@ -41,7 +41,6 @@ export const ButtonStyled = styled.button`
     border: 1px solid ${props => props.borderColor};
     text-align: center;
     font-weight: 700;
-    font-size: 12px;
     margin: 5px
 `;
 

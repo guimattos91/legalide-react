@@ -19,9 +19,7 @@ export const ListStyleNone = styled.ul`
 
 export const ListStyleNoneMobile = styled.ul`
     list-style: none;
-    li{
-      font-size: 1.5em;
-    }
+
 `;
 
 
@@ -29,12 +27,21 @@ export const TitleH1Martel = styled.h1`
     font-family: 'Martel', serif;
     font-weight: bolder;
     color: white;
+    padding: 0;
+    margin: 0;
 `;
 
 export const BannerTitle = styled.h2`
     font-family: 'Martel', serif;
-    font-weight: bolder;
+    font-weight: 900;
     text-align: start;
+    flex: flex;
+    flex-wrap: wrap;
+    font-size: 72px;
+    @media (max-width: 768px) {
+      font-size: 36px;
+      padding-top: 2rem;
+  }
 `;
 
 export const HeaderStyles = styled.header`

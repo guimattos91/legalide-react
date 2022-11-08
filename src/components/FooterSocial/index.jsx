@@ -7,7 +7,7 @@ import { LinkStyled, TextStyled, UlFooterSocial } from '../FooterSocial/style.js
 
 
 const FooterSocial = () => (
-    <div className="d-flex justify-content-between container">
+    <div className="d-flex justify-content-between align-items-center container">
         <div className="color-white d-flex flex-wrap">
             <TextStyled>Site by
                 <LinkStyled href="https://www.linkedin.com/in/guimattos91/" target="_blank" rel="noreferrer">
@@ -18,10 +18,26 @@ const FooterSocial = () => (
         </div>
         <nav>
             <UlFooterSocial className="d-flex align-items-center color-white">
-                <a href="https://www.facebook.com/"><li className="px-1"> <FaFacebookSquare /> </li></a>
-                <a href="https://www.instagram.com//"><li className="px-1"> <FaInstagram />  </li></a>
-                <a href="https://twitter.com/home/"><li className="px-1"> <FaTwitter /> </li></a>
-                <a href="https://www.youtube.com/"><li> <FaYoutube /> </li></a>
+                <li className="px-1">
+                    <a href="https://www.facebook.com/">
+                        <FaFacebookSquare color="white" />
+                    </a>
+                </li>
+                <li className="px-1">
+                    <a href="https://www.instagram.com//">
+                        <FaInstagram color="white" />
+                    </a>
+                </li>
+                <li className="px-1">
+                    <a href="https://twitter.com/home/">
+                        <FaTwitter color="white" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/">
+                        <FaYoutube color="white" />
+                    </a>
+                </li>
             </UlFooterSocial>
         </nav>
     </div>

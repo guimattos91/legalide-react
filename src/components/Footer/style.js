@@ -7,13 +7,18 @@ export const BackgroundColorSecundary = styled.div`
 export const UlFooterStyle = styled.ul`
     list-style: none;
     color: white;
+    flex: flex;
+    flex-direction: column;
+
+    li{
+      flex: flex;
+      display: flex;
+    }
 `;
 
-export const liColorLightBlue = styled.li`
-    color: #8EC2F2;
-`;
 
 export const FontMartelTitle = styled.li`
     font-family: 'Martel', serif;
     font-weight: bold;
+    padding-bottom: 1rem;
 `;

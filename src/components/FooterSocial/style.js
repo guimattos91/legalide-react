@@ -11,6 +11,8 @@ export const UlFooterSocial = styled.ul`
 export const TextStyled = styled.p`
     list-style: none;
     color: white;
+    margin: 0;
+    padding: 0;
 `;
 
 export const LinkStyled = styled.a`
@@ -18,4 +20,8 @@ export const LinkStyled = styled.a`
     color: white;
     padding-left: 0.25rem;
     padding-right: 0.25rem;
+
+    :visited{
+      color: white;
+    }
 `;

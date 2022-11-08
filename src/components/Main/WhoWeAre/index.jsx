@@ -17,14 +17,15 @@ const WhoWeAre = () =>(
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kuYzs7YMOOI"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen />
+                        allowfullscreen />
             </div>
-            <div className="col-12 col-md-4 pt-5 pt-md-2">
+            <div className="col-12 col-md-4">
                 <Maintitle
                     align="start"
                     title="Most trusted in our field"
                     text1="Most calendars are designed for teams. Slate is designed
                     for freelancers who want a simple way to plan their schedule."
+                    className="pt-3"
                 />
                 <div className="d-flex pt-3 pt-md-1">
                     <div>

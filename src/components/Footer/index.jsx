@@ -56,10 +56,21 @@ const Footer = () => (
                     <div className="col pt-5 pt-lg-0">
                         <nav className="d-flex justify-content-between">
                             <UlFooterStyle>
-                                <FontMartelTitle className="pb-3"> Get In Touch </FontMartelTitle>
-                                <li className="pb-1"><AiOutlinePhone className='color-lightblue' /> 480 555-0103</li>
-                                <li className="pb-1"><FiMapPin className='color-lightblue' /> 4517 Washington Ave.</li>
-                                <li><TbBrandTelegram className='color-lightblue' /> debra.holt@example.com</li>
+                                <FontMartelTitle>
+                                    Get In Touch
+                                </FontMartelTitle>
+                                <li className="pb-1">
+                                    <AiOutlinePhone color="#8EC2F2" />
+                                    480 555-0103
+                                </li>
+                                <li className="pb-1">
+                                    <FiMapPin color="#8EC2F2" />
+                                    4517 Washington Ave.
+                                </li>
+                                <li>
+                                    <TbBrandTelegram color="#8EC2F2" />
+                                    debra.holt@example.com
+                                </li>
                             </UlFooterStyle>
                         </nav>
                     </div>
