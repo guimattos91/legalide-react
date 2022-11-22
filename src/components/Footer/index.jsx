@@ -8,7 +8,7 @@ const Footer = () => (
     <footer>
         <BackgroundColorSecundary className="py-5">
             <div className="container">
-                <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5">
+                <div className="row row-cols-1 row-cols-md-3 row-cols-xl-5">
                     <div className="col pt-5 pt-lg-0">
                         <nav className="d-flex justify-content-between">
                             <UlFooterStyle>
@@ -42,7 +42,7 @@ const Footer = () => (
                             </UlFooterStyle>
                         </nav>
                     </div>
-                    <div className="col pt-5 pt-lg-0">
+                    <div className="col pt-5 pt-xl-0">
                         <nav className="d-flex justify-content-between">
                             <UlFooterStyle>
                                 <FontMartelTitle className="pb-3"> Resources </FontMartelTitle>
@@ -53,8 +53,8 @@ const Footer = () => (
                             </UlFooterStyle>
                                 </nav>
                     </div>
-                    <div className="col pt-5 pt-lg-0">
-                        <nav className="d-flex justify-content-between">
+                    <div className="col pt-5 pt-xl-0">
+                        <nav className="d-flex justify-content-between flex-wrap">
                             <UlFooterStyle>
                                 <FontMartelTitle>
                                     Get In Touch

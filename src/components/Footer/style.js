@@ -12,7 +12,6 @@ export const UlFooterStyle = styled.ul`
 
     li{
       flex: flex;
-      display: flex;
     }
 `;
 
