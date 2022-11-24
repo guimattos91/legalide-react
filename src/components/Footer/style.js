@@ -9,6 +9,8 @@ export const UlFooterStyle = styled.ul`
     color: white;
     flex: flex;
     flex-direction: column;
+    padding-left: 0;
+    margin-left: 0;
 
     li{
       flex: flex;

@@ -10,3 +10,4 @@ export const TextStyleSmall = styled.p`
     font-size: small;
     color: #fff;
 `;
+

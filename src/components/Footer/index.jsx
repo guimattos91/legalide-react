@@ -11,7 +11,7 @@ const Footer = () => (
                 <div className="row row-cols-1 row-cols-md-3 row-cols-xl-5">
                     <div className="col pt-5 pt-lg-0">
                         <nav className="d-flex justify-content-between">
-                            <UlFooterStyle>
+                            <UlFooterStyle className="px-0 mx-0">
                                 <FontMartelTitle className="pb-3"> Company Info </FontMartelTitle>
                                 <li className="pb-1">About Us</li>
                                 <li className="pb-1">Carrier</li>
@@ -60,15 +60,15 @@ const Footer = () => (
                                     Get In Touch
                                 </FontMartelTitle>
                                 <li className="pb-1">
-                                    <AiOutlinePhone color="#8EC2F2" />
+                                    <AiOutlinePhone color="#8EC2F2" size={25} className="me-2 mb-2" />
                                     480 555-0103
                                 </li>
                                 <li className="pb-1">
-                                    <FiMapPin color="#8EC2F2" />
+                                    <FiMapPin color="#8EC2F2" size={25} className="me-2 mb-2" />
                                     4517 Washington Ave.
                                 </li>
                                 <li>
-                                    <TbBrandTelegram color="#8EC2F2" />
+                                    <TbBrandTelegram color="#8EC2F2" size={25} className="me-2 mb-2" />
                                     debra.holt@example.com
                                 </li>
                             </UlFooterStyle>

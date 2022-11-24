@@ -8,8 +8,8 @@ import { BackgroundBlue, H4Title, Buttoncolor, InputEmail } from '../Emailsubscr
 
 
 const Emailsubscribe = () =>(
-    <>
-        <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6 py-5
+    <div className="py-5 pb-5">
+        <div className="row row-cols-1 row-cols-md-3 row-cols-lg-6 py-5 
         d-flex justify-content-between g-3">
             <div className="col d-flex align-items-center justify-content-center
             pt-4 pt-md-0">
@@ -57,7 +57,7 @@ const Emailsubscribe = () =>(
                 </div>
             </div>
         </BackgroundBlue>
-    </>
+    </div>
 );
 
 export default Emailsubscribe;

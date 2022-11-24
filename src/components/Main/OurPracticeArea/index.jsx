@@ -10,6 +10,7 @@ const OurPracticeArea = () =>(
         title="Our Practice Areas"
         text1="Problems trying to resolve the conflict between the two major
         realms of Classical physics: Newtonian mechanics"
+        paddingy="4"
         />
         <div className="row row-cols-1 row-cols-md-3">
           <div className="col d-flex  pt-5">

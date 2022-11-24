@@ -29,9 +29,8 @@ export const CardGetInTouch = styled.div`
     flex: flex;
     flex-direction: column;
     width: 100%;
-    padding: 50px 40px;
+    padding: 40px 0px 40px 0px;
     padding: ${props => props.topBottom} ${props => props.StartEnd};
-
 `;
 
 export const ButtonStyled = styled.button`

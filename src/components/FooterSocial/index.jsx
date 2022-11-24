@@ -2,45 +2,55 @@ import {FaFacebookSquare} from 'react-icons/fa';
 import {FaInstagram} from 'react-icons/fa'
 import {FaTwitter} from 'react-icons/fa'
 import {FaYoutube} from 'react-icons/fa'
-import { LinkStyled, TextStyled, UlFooterSocial } from '../FooterSocial/style.js';
+import { LinkStyled, SocialFooterStyle, TextLink, TextStyled, UlFooterSocial } from '../FooterSocial/style.js';
 
 
 
 const FooterSocial = () => (
-    <div className="d-flex justify-content-between align-items-center container">
+    <SocialFooterStyle className="d-flex container py-2">
         <div className="color-white d-flex flex-wrap">
-            <TextStyled>Site by
-                <LinkStyled href="https://www.linkedin.com/in/guimattos91/" target="_blank" rel="noreferrer">
-                    Guilherme
+            <TextStyled className="d-flex">Site by:
+                <LinkStyled 
+                href="https://www.linkedin.com/in/guimattos91/"
+                target="_blank"
+                rel="noreferrer">
+                    <TextLink>Guilherme</TextLink>
                 </LinkStyled>
             </TextStyled>
-            <TextStyled><i>All Rights Reserved</i></TextStyled>
         </div>
         <nav>
             <UlFooterSocial className="d-flex align-items-center color-white">
-                <li className="px-1">
-                    <a href="https://www.facebook.com/">
-                        <FaFacebookSquare color="white" />
+                <li className="pe-2">
+                    <a href="https://www.facebook.com/"
+                    target="_blank"
+                    rel="noreferrer">
+                        <FaFacebookSquare color="white" size={25} />
                     </a>
                 </li>
-                <li className="px-1">
-                    <a href="https://www.instagram.com//">
-                        <FaInstagram color="white" />
+                <li className="pe-2">
+                    <a href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noreferrer">
+                        <FaInstagram color="white" size={25} />
                     </a>
                 </li>
-                <li className="px-1">
-                    <a href="https://twitter.com/home/">
-                        <FaTwitter color="white" />
+                <li className="pe-2">
+                    <a href="https://twitter.com/"
+                    target="_blank"
+                    rel="noreferrer">
+                        <FaTwitter color="white" size={25} />
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/">
-                        <FaYoutube color="white" />
+                    <a href="https://www.youtube.com/"
+                    target="_blank"
+                    rel="noreferrer">
+                        <FaYoutube color="white" size={25} />
                     </a>
                 </li>
             </UlFooterSocial>
         </nav>
-    </div>
+    </SocialFooterStyle>
 );
 
 export default FooterSocial

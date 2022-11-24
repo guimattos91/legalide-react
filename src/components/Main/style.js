@@ -1,9 +1,7 @@
 
-import { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 
-export default createGlobalStyle`
-    .color-primary{
-      color: #252B42;
-    }
+export const  MainStyle = styled.main`
+    background-color: #252B42;
 `;
 

@@ -1,6 +1,5 @@
 import woman from '../../assets/agent.png';
 import {
-    BannerContainer,
     ListStyleNone,
     TitleH1Martel,
     BannerTitle,
@@ -18,7 +17,7 @@ import { useState } from 'react';
 const Header = () => {
     const [menuIsVisible, setMenuIsVisible] = useState(false)
     return (
-        <BannerContainer>
+        <>
             <HeaderStyles>
                 <div className="container d-flex justify-content-between pt-3 align-items-center">
                     <TitleH1Martel className="fontsizexg text-center text-md-start">Legalide</TitleH1Martel>
@@ -66,7 +65,8 @@ const Header = () => {
                         </div>
                 </div>
             </HeaderStyles>
-        </BannerContainer>
+
+        </>
     )};
 
 export default Header;

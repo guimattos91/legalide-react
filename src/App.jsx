@@ -4,11 +4,12 @@ import Main from './components/Main/index';
 import { GlobalStyle } from './styles/global';
 
 const App = () => (
-  <GlobalStyle >
+  <>
+    <GlobalStyle />
     <Header />
     <Main />
     <Footer />
-  </GlobalStyle >
+  </>
 );
 
 export default App;

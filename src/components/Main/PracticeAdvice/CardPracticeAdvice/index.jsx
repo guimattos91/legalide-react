@@ -6,11 +6,9 @@ import { Ratio } from 'react-bootstrap';
 
 const CardPracticeAdvice = ({title, image, description}) => (
 <>
-    <BgWhite className="g-0 h-100">
-        <div className="card-body mx-5">
-            <FontPrimary className="mt-4">{ title }</FontPrimary>
+    <BgWhite className="g-0">
+            <FontPrimary className="mt-4 pb-3">{ title }</FontPrimary>
             <FontSecundary>{ description } </FontSecundary>
-        </div>
     </BgWhite>
     <Ratio
     aspectRatio="16x9"

@@ -10,9 +10,11 @@ const MenuComponent = ({ menuIsVisible, setMenuIsVisible }) => {
 
     return (
     <>
-        <Container isVisible={menuIsVisible}>
-            <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
-                <div>
+        <Container
+        isVisible={menuIsVisible}
+        onClick={() => setMenuIsVisible(false)}>
+            <div>
+                    <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
                     <BannerTitle>Menu</BannerTitle>
                     <nav>
                             <a

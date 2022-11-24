@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import BannerBackground from '../../assets/background.png';
 
-export const BannerContainer = styled.div`
+export const HeaderStyles = styled.header`
     background-color: #fff;
     background-image: url(${BannerBackground});
     background-repeat: no-repeat;
     background-size: cover;
+    color: #fff;
 `;
 
 export const OffCanvasBody = styled.div`
@@ -15,6 +16,11 @@ export const OffCanvasBody = styled.div`
 export const ListStyleNone = styled.ul`
     list-style: none;
     flex: flex;
+    li{
+      :hover{
+        text-decoration: underline white;
+      }
+    }
 `;
 
 export const ListStyleNoneMobile = styled.ul`
@@ -44,10 +50,6 @@ export const BannerTitle = styled.h2`
   }
 `;
 
-export const HeaderStyles = styled.header`
-    color: #fff;
-`;
-
 export const YellowButtonBanner = styled.button`
     border-radius: 100px;
     padding: 5px 30px 5px 30px ;
@@ -61,6 +63,10 @@ export const YellowButtonBanner = styled.button`
     p{
       padding: 0;
       margin:0;
+    }
+
+    :hover{
+      background-color: #252B42;
     }
 `;
 export const TransparentButtonBanner = styled.button`
@@ -76,5 +82,10 @@ export const TransparentButtonBanner = styled.button`
     p{
       padding: 0;
       margin:0;
+    }
+
+    :hover{
+      background-color: white;
+      color: #252B42;
     }
 `;
