@@ -14,7 +14,7 @@ const FooterSocial = () => (
                 href="https://www.linkedin.com/in/guimattos91/"
                 target="_blank"
                 rel="noreferrer">
-                    <TextLink>Guilherme</TextLink>
+                    <TextLink>Guilherme Mattos</TextLink>
                 </LinkStyled>
             </TextStyled>
         </div>
